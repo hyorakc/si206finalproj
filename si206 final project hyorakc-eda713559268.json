@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "si206-final-project-hyorakc",
+  "private_key_id": "eda713559268b7d4420cb632acf54c85ccef72be",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCClM+C2GLbDDmC\njkewNNTkGg6NWtmDygmGX1PtLxB4Dtl8P7lAguWv5E0/df+Xt4gBXwU0ZSkS2umv\n7KIonLYHWoPF7Mk8WcRfVpsToTvYLZvS57VxNrIVxv5brNcWtw0Mg75ZYmMB44/v\nqYTcRp6/znN6jl5UNcOXCNocrO4FVUefb5hPHjXMamI1ZLnjQXbS9RydoQIFSS7M\nG1YF/Rpv3KO9b7TfZ1NocY7Z6pH6s4NVOgRNf/EaQheQ5uzogCmtcNaquulMUfPB\nVvG0vs1Zo6VhBFYp8xuXkjKIyxPQkyqmlRkdmwJJZaYXLry9g62rnTYPHcfF1nFN\nbWxmlLWrAgMBAAECggEADDV8p2ey6ncco2vJIRz3cLJM/QNrBersdA9SqgD2Abul\nsvvERtdWQVlPrajLMnS69yHauzjgG76zDbtKuBBa5pocavOGJynfdeiDjFTNYxt0\nj8YRTVoHUYju/ERPQfTwd+STdgkAZ8tOiGJppSzHJ/jWDDXmdOon9OWjev3iLUZX\nQK/Vb+PDSbWQPWFOF+n3uqn5uqcJPfZ/TjSim4EonZqmzzW9Ph3Q0xZ+9yw8gT3e\ntooO1HzJOICrttnB2eP0o48ih8DP2l12wTT19Dj1RPbeH5XUmWSa09TcqG4SjJrN\ng6ngf55qTQMJXXKt+k+2x9sc3L+4j9K0PduPreRI6QKBgQC4Rknj/A2qGQzXBrOz\nlvJxXgQ1Pu2z4SOuZ5YNp/iWNHWVz4c3edBkwvtbxHxid6SoFlWmnq8uNPAhIHXg\nJ4+L7oznibX77rKbsph3kPXGOLDNcqxN8Q9Duc5YSMJe5mU3FBnnr6q+dZ0i5r3r\nEIN90pGOeiSkNINmSumvGbq/4wKBgQC1aFnm43GslO+KxFduUXyYmLH36LSwN5Wl\nS7o0E+llo5EmdZU/VyG0A4Nw839ew8dakg/9ET3brfJianKQ+kTB8kmuy1EF4exA\n/RAF0dxPI0hRwppz6zbuo28QEevhUXvijHg4UrkkHsMgzPaedIyqHFsRLwzYd+QO\nA+wkrxiNmQKBgQCam46fU/j7AC1/s8XOJhWf/Gu3aObzBzBywcJqDsZI8Ba/7PDc\nIL4x7E4MvpxF2XAy/xo5w+Xi9NOMV7nOqiKMG0fpc+dWSv1cGMpHdz5eY24j0dSz\nSE+wWRLBi7pY+SFuxtS9SOwPBIskn0g1ExPf2234ho57nvuoNa4/FW1UVQKBgA2y\nNzdrbKWvCPbdJAy8MkADJ0ykUSAM0kuMkB5mcnSuCMNylTYXCgBhU4cvmyo4ddCs\nvnBI4Pa5B1fO2Z+Ahbhu5ok/6HodOI0fjhoiYhPHgipKGwctdxRFWplIARsd39CW\n8myuMjQ77leHogcMnaIqSeXeO4YMZzd3rFiIr73hAoGAGgRjaEnmJJvzH+x8ni0J\n88mCQWZV8Ddm20ywwM5rtjfceO926mw1ftBbSUJWV8xUEzwN0VlOpyNOWo+Z5wsc\nu6zb9wAzcvgnJKmirlIi117ssMXsSZcIyaNBZNfoA//F5Df2BxIu4UAX3Do4M7FA\n7Rx59nnoiXjp7JaRGucjqqo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "si206-final-project-service-ac@si206-final-project-hyorakc.iam.gserviceaccount.com",
+  "client_id": "109094902814401424353",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/si206-final-project-service-ac%40si206-final-project-hyorakc.iam.gserviceaccount.com"
+}
