@@ -12,12 +12,16 @@ client = vision.ImageAnnotatorClient()
 
 conn = sqlite3.connect('reddit_r_awww.sqlite')
 cur = conn.cursor()
-cur.execute('SELECT thumburl FROM Reddit')
+cur.execute('SELECT thumburl,name FROM Reddit')
 post_list = cur.fetchall()
+
+cur.execute('CREATE TABLE IF NOT EXISTS Imagerec (name TEXT, catvsdog TEXT)')
+
 
 for _ in post_list:
     # print(_)
     url = _[0]
+    name = _[1]
     response = requests.get(url)
     if response.status_code == 200:
         # with open("/Users/apple/Desktop/sample.jpg", 'wb') as f:
@@ -57,8 +61,9 @@ for _ in post_list:
     # return catsvdogs
     # print(catsvdogs)
     query = '''
-    UPDATE Reddit SET catvsdog = ? WHERE thumburl = ?
+    INSERT INTO Imagerec (name,catvsdog)
+    VALUES (?,?)
     '''
-    attr = (catsvdogs,url)
+    attr = (name,ncatsvdogs)
     cur.execute(query,attr)
 conn.commit()
