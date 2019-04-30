@@ -16,8 +16,8 @@ cur.execute('SELECT thumburl FROM Reddit')
 post_list = cur.fetchall()
 
 for _ in post_list:
-
-    url = _
+    # print(_)
+    url = _[0]
     response = requests.get(url)
     if response.status_code == 200:
         # with open("/Users/apple/Desktop/sample.jpg", 'wb') as f:
@@ -42,15 +42,23 @@ for _ in post_list:
     labels2 = [x.description for x in labels]
 
 
-    catsvdogs = []
+    catsvdogs = ''
     if 'Cat' in labels2:
     
         if 'Dog' in labels2:
-            catsvdogs.append('Cat and Dog')
+            catsvdogs = 'Cat and Dog'
         else:
-            catsvdogs.append("Cat")
+            catsvdogs = "Cat"
     elif 'Dog' in labels2:
-        catsvdogs.append('Dog')
+        catsvdogs = 'Dog'
+    else:
+        catsvdogs = 'None'
 
-    return catsvdogs
+    # return catsvdogs
     # print(catsvdogs)
+    query = '''
+    UPDATE Reddit SET catvsdog = ? WHERE thumburl = ?
+    '''
+    attr = (catsvdogs,url)
+    cur.execute(query,attr)
+conn.commit()
